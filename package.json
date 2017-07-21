@@ -1,0 +1,22 @@
+{
+  "name": "urlshortener-ms",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1moosey1/urlshortener-ms.git"
+  },
+  "author": "Juan Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1moosey1/urlshortener-ms/issues"
+  },
+  "homepage": "https://github.com/1moosey1/urlshortener-ms#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
