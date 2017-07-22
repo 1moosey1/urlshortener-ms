@@ -1,0 +1,12 @@
+URL Shortener Microservice
+
+Usage:
+
+Append url to be shortened like so
+
+https://lit-stream-87423.herokuapp.com/<url-to-be-shortened>
+Ex. https://lit-stream-87423.herokuapp.com/reddit.com
+
+
+The result will be returned as json, for example
+{"newURL":"https://lit-stream-87423.herokuapp.com/97166"}

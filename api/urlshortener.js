@@ -55,6 +55,8 @@ function findExistingKey(urlkey, db, response) {
 function findExistingUrl(postedURL, db, response) {
 
     var collection = db.collection("urlkeys");
+    postedURL = validateUrl(postedURL);
+
     collection.findOne({ url:postedURL }, function (err, doc) {
 
         if (err)
@@ -74,7 +76,6 @@ function findExistingUrl(postedURL, db, response) {
 function newKey(postedURL, collection, response) {
 
     var urlkey = Math.floor((Math.random() * 99999));
-    postedURL = validateUrl(postedURL);
 
     collection.insertOne({ urlkey: urlkey, url: postedURL }, function (err) {
 
