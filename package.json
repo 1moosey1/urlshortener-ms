@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/1moosey1/urlshortener-ms#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
   }
 }
